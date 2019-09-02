@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3afc7343-2edd-4721-909a-65c10dbc3855" name="Default Changelist" comment="" />
+    <list default="true" id="3afc7343-2edd-4721-909a-65c10dbc3855" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/RecvTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/Send.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,34 +27,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/Send.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/simple/Recv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/RecvOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/util/ConnectionUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="540">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +41,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/simple/Send.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="610">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/Send.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/RecvTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/Send.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/RecvOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -67,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/RecvTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="489">
+              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,31 +102,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/simple/Recv.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="432">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/Send.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="371">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="310">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -124,6 +140,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -136,8 +155,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/Send.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/work/RecvTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/Send.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/Recv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/Send.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvTwo.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/RecvTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/RecvOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/Send.java" />
       </list>
     </option>
   </component>
@@ -158,6 +185,7 @@
     <option name="width" value="1747" />
     <option name="height" value="893" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -203,6 +231,42 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="exchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="routing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MQdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MQdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,9 +294,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -243,7 +308,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.antz.rabbitmq.exchange" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\10514\Desktop\MQdemo\src\main\java\com\antz\rabbitmq\routing" />
       <recent name="C:\Users\10514\Desktop\MQdemo\src\main\java\com\antz\rabbitmq\workfair" />
       <recent name="C:\Users\10514\Desktop\MQdemo\src\main\java\com\antz\rabbitmq" />
       <recent name="C:\Users\10514\Desktop\MQdemo\src\main\java\com\antz\rabbitmq\work" />
@@ -262,12 +331,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Send">
-    <configuration name="RecvOne (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.workfair.RecvOne" />
+    <configuration name="RecvOne (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.routing.RecvOne" />
       <module name="MQdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.antz.rabbitmq.workfair.*" />
+          <option name="PATTERN" value="com.antz.rabbitmq.routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,11 +345,11 @@
       </method>
     </configuration>
     <configuration name="RecvTwo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.workfair.RecvTwo" />
+      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.routing.RecvTwo" />
       <module name="MQdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.antz.rabbitmq.workfair.*" />
+          <option name="PATTERN" value="com.antz.rabbitmq.routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -289,11 +358,11 @@
       </method>
     </configuration>
     <configuration name="RecvTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.work.RecvTwo" />
+      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.exchange.RecvTwo" />
       <module name="MQdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.antz.rabbitmq.work.*" />
+          <option name="PATTERN" value="com.antz.rabbitmq.exchange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,12 +370,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Send (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.work.Send" />
+    <configuration name="Send (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.exchange.Send" />
       <module name="MQdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.antz.rabbitmq.work.*" />
+          <option name="PATTERN" value="com.antz.rabbitmq.exchange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,11 +384,11 @@
       </method>
     </configuration>
     <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.workfair.Send" />
+      <option name="MAIN_CLASS_NAME" value="com.antz.rabbitmq.routing.Send" />
       <module name="MQdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.antz.rabbitmq.workfair.*" />
+          <option name="PATTERN" value="com.antz.rabbitmq.routing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,9 +399,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Send" />
+        <item itemvalue="Application.RecvOne (2)" />
         <item itemvalue="Application.RecvTwo (1)" />
-        <item itemvalue="Application.RecvOne (1)" />
-        <item itemvalue="Application.Send (1)" />
+        <item itemvalue="Application.Send (2)" />
         <item itemvalue="Application.RecvTwo" />
       </list>
     </recent_temporary>
@@ -347,12 +416,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567407052447</updated>
-      <workItem from="1567407057336" duration="6092000" />
+      <workItem from="1567407057336" duration="11304000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1567416946248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567416946249</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1567417798946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567417798946</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6092000" />
+    <option name="totallyTimeSpent" value="11304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -364,18 +448,18 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.12953092" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.12953092" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.32962963" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32969216" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.3286991" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32969216" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.27281746" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.2730884" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -394,68 +478,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar!/com/rabbitmq/client/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
           <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/util/ConnectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/simple/Send.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/RecvTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/RecvOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/Send.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,34 +499,154 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/work/RecvTwo.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/simple/Recv.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/Send.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="396">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/util/ConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/Send.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/RecvOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="850">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/Send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/4.0.2/amqp-client-4.0.2.jar!/com/rabbitmq/client/Channel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="143" column="21" selection-start-line="143" selection-start-column="21" selection-end-line="143" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="310">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/workfair/RecvOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/simple/Recv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="540">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/simple/Send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="504">
+            <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <folding>
+              <element signature="e#0#91#0" expanded="true" />
+              <element signature="e#0#75#0" expanded="true" />
+              <element signature="e#0#75#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/work/RecvTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/Send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/exchange/RecvTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/Send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/RecvTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/antz/rabbitmq/routing/RecvOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
         </state>
       </provider>
     </entry>

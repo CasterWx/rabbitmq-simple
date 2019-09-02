@@ -1,4 +1,4 @@
-package com.antz.rabbitmq.workfair;
+package com.antz.rabbitmq.routing;
 
 import com.antz.rabbitmq.util.ConnectionUtil;
 import com.rabbitmq.client.*;
@@ -8,12 +8,14 @@ import java.util.concurrent.TimeoutException;
 
 public class RecvTwo {
 
-
-    private static final String QUEUE_NAME = "test_simple_quque" ;
+    private static final String EXCHANGE_NAME = "test_exchange_direct" ;
+    private static final String QUEUE_NAME = "test_work_queue" ;
 
     public static void main(String[] args) throws IOException, TimeoutException {
-        Connection connection = ConnectionUtil.getConnection() ;
+        Connection connection = ConnectionUtil.getConnection();
         final Channel channel = connection.createChannel() ;
+
+        channel.queueBind(QUEUE_NAME, EXCHANGE_NAME, "warning") ;
 
         channel.queueDeclare(QUEUE_NAME, false, false, false, null) ;
 
@@ -27,7 +29,7 @@ public class RecvTwo {
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 System.out.println("[2] recv:"+new String(body,"utf-8"));
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }finally {
@@ -38,5 +40,6 @@ public class RecvTwo {
         };
 
         channel.basicConsume(QUEUE_NAME, false, consumer) ;
+
     }
 }
