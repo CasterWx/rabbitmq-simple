@@ -1,0 +1,2 @@
+# rabbitmq-simple
+RabbitMQ simple.
